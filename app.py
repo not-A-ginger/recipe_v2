@@ -6,10 +6,10 @@ from scipy.sparse import csr_matrix
 
 st.header("Food recommender Web App ")
 
-model= pickle.load(open('/Users/all/Desktop/ANACONDA PROJECTS/artifacts/model.pkl','rb'))
-food_name= pickle.load(open('/Users/all/Desktop/ANACONDA PROJECTS/artifacts/food_name.pkl','rb'))
-final_rating=pickle.load(open('/Users/all/Desktop/ANACONDA PROJECTS/artifacts/final_rating.pkl','rb'))
-food_pivot=pickle.load(open('/Users/all/Desktop/ANACONDA PROJECTS/artifacts/food_pivot.pkl','rb'))
+model= pickle.load(open('artifacts/model.pkl','rb'))
+food_name= pickle.load(open('artifacts/food_name.pkl','rb'))
+final_rating=pickle.load(open('artifacts/final_rating.pkl','rb'))
+food_pivot=pickle.load(open('artifacts/food_pivot.pkl','rb'))
 
 
 

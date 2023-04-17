@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: src
 Version: 0.0.1
 Summary: A food recommendation system
-Author: entbappy
+Author: Alex Spears
 Author-email: 24aspears@nyos.org
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
