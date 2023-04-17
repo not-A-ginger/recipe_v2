@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./env/lib/python3.7/site-packages"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
