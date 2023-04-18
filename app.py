@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 from scipy.sparse import csr_matrix
 
-st.header("Food recommender Web App ")
+st.header("Alex's Recipe Recommender ")
 
 model= pickle.load(open('artifacts/model.pkl','rb'))
 food_name= pickle.load(open('artifacts/food_name.pkl','rb'))
